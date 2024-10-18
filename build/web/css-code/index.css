@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Dec, 2022, 7:33:22 AM
+    Author     : dell
+*/
+
+.outer
+{
+    height: 100vh;
+    width: 100vw;
+    background: url("../image/lb2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 300px;
+    padding-right: 200px;
+}
+.field
+{
+    height: 400px;
+    width: 800px;
+    background-color: transparent;
+    padding: 50px;
+}
+legend
+{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.field table
+{
+    
+}
+.field table tr td
+{
+    height: 70px;
+    width: 200px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.field table tr td input
+{
+    height: 50px;
+    width: 400px;
+    font-size: x-large;
+}
+.b1
+{
+    background-color: transparent;
+    border: 2px solid yellow;
+    color: white;
+}

@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <link href="../css-code/add_user.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="container">     
+                <h1>Add User</h1>  
+                <form action="../jsp/add_user.jsp" method="post">
+                <table>
+                    <tr>
+                        <td>User Name:</td>
+                        <td><input type="text" name="names"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td><input type="radio" name="gender" value="m">Male
+                            <input type="radio" name="gender" value="f">Female</td>
+                    </tr>
+                    <tr>
+                        <td>Mobile:</td>
+                        <td><input type="text" name="mobile"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail:</td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Course:</td>
+                        <td><select name="course">
+                            <option>B A</option>
+                            <option>B Com</option>
+                            <option>B Sci</option>
+                            <option>B C A</option>
+                            <option>B B A</option>
+                            <option>B Tech</option>
+                            <option>B Ed</option>
+                            <option>B J M C</option>
+                            <option> M A</option>
+                            <option>M Com</option>
+                            <option>M Sc</option>
+                            <option>M C A</option>
+                            <option>M B A</option>
+                            <option>M Tech</option>
+                            <option>M Ed</option>
+                            <option>M J M C</option>
+                        </select>   </td>
+                    </tr>
+                    <tr><td colspan="2"><input type="submit" value="Add User"></td></tr>
+                </table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

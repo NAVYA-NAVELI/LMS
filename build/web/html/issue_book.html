@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <link href="../css-code/issue_book.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="container">     
+                <h1>Issue Book</h1>      
+                <form action="../jsp/issue_book.jsp" method="post">     
+                    <div class="form-group">       
+                        <label for="exampleInputEmail1">Book ID:</label>       
+                        <input type="number" class="form-control" id="exampleInputEmail1" name="bookid">     
+                    </div>     
+                    <div class="form-group">       
+                        <label for="exampleInputPassword1">Student ID:</label>       
+                        <input type="number" class="form-control" id="exampleInputPassword1" name="userid">     
+                    </div> 
+                    <div class="form-group">       
+                        <label for="exampleInputEmail1">Issue Date:</label>       
+                        <input type="date"  class="form-control" id="exampleInputEmail1" name="issue_date">     
+                    </div> 
+                    <div class="form-group">       
+                        <label for="exampleInputEmail1">Due Date:</label>       
+                        <input type="date" class="form-control" id="exampleInputEmail1" name="due_date">     
+                    </div> 
+                    <button type="submit" class="btn btn-default">Issue</button>   
+                    <button type="submit" class="btn btn-default">Close</button>   
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
