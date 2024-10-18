@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 Dec, 2022, 8:02:34 AM
+    Author     : dell
+*/
+.outer
+{
+    height: 100%;
+    width: 100%;
+    background-color:darkgrey;
+   
+}
+.banner
+            {
+                height: 700px;
+                width: 100%;
+                background-color: red;
+                background: url("../img/hero/hero-1.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+.navbar-default 
+{
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+}
+.chose
+{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    padding-top: 70px;
+    opacity: 0.9;
+}
+.classes
+{
+    height: 1200px;
+    width: 100%;
+    background-color: black;
+    padding-top: 90px;
+}
+.reg
+{
+    height: 600px;
+    width: 100%;
+    background-color: red;
+    background: url("../img/gallery/gallery-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+.fee
+{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    padding-top: 90px;
+}
+.gallery
+{
+    height: 930px;
+    width: 100%;
+    background-color: darkgrey;
+    margin-left:  10px;
+}
+img
+{
+    margin: 5px;
+}
+.team
+{
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    padding-top: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
+    opacity: 0.9;
+}
+.address
+{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+ul
+{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+.footer
+{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
